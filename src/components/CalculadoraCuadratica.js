@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import useCalculoCuadratica from '../hooks/useCalculoCuadratica'; 
+import useCalculoCuadratica from '../hooks/useCalculoCuadratica';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function CalculadoraCuadratica() {
@@ -20,6 +20,12 @@ function CalculadoraCuadratica() {
 
     return (
         <div className="container">
+            <div className="row">
+                <div className="col-12 text-center mb-3">
+                    <h2>Calculadora de Fórmula Cuadrática</h2>
+                    <p>Por favor, ingrese los valores.</p>
+                </div>
+            </div>
             <div className="row">
                 <div className="mb-3 col">
                     <label className="form-label">Valor a:</label>
